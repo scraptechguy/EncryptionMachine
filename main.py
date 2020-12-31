@@ -60,6 +60,11 @@ def translate_2(phrase2):
     for letter2 in phrase2:
         if letter2 in "a":
             translation_2 = translation_2 + "1"
+        elif letter2 in "b":
+            translation_2 = translation_2 + "2"
+        elif letter2 in "c":
+            translation_2 = translation_2 + "3"
+            
     return translation_2
 
 # disc C
