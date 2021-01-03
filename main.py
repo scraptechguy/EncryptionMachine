@@ -64,8 +64,12 @@ def translate_2(phrase2):
             translation_2 = translation_2 + "2"
         elif letter2 in "c":
             translation_2 = translation_2 + "3"
+        elif letter2 in "d":
+            translation_2 = translation_2 + "4"
+            
             
     return translation_2
+
 
 # disc C
 
