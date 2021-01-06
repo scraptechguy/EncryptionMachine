@@ -5,51 +5,51 @@ def translate(phrase):
     translation = ""
     for letter in phrase:
         if letter in "AEIOUaeiou":
-            translation = translation + "0"
+            translation += "0"
         elif letter in "bB":
-            translation = translation + "y"
+            translation += "y"
         elif letter in "cC":
-            translation = translation + "x"
+            translation += "x"
         elif letter in "dD":
-            translation = translation + "w"
+            translation += "w"
         elif letter in "fF":
-            translation = translation + "u"
+            translation += "u"
         elif letter in "gG":
-            translation = translation + "t"
+            translation += "t"
         elif letter in "hH":
-            translation = translation + "s"
+            translation += "s"
         elif letter in "jJ":
-            translation = translation + "q"
+            translation += "q"
         elif letter in "kK":
-            translation = translation + "p"
+            translation += "p"
         elif letter in "lL":
-            translation = translation + "o"
+            translation += "o"
         elif letter in "mM":
-            translation = translation + "n"
+            translation += "n"
         elif letter in "nN":
-            translation = translation + "m"
+            translation += "m"
         elif letter in "pP":
-            translation = translation + "k"
+            translation += "k"
         elif letter in "qQ":
-            translation = translation + "j"
+            translation += "j"
         elif letter in "rR":
-            translation = translation + "i"
+            translation += "i"
         elif letter in "sS":
-            translation = translation + "h"
+            translation += "h"
         elif letter in "tT":
-            translation = translation + "g"
+            translation += "g"
         elif letter in "vV":
-            translation = translation + "e"
+            translation += "e"
         elif letter in "wW":
-            translation = translation + "d"
+            translation += "d"
         elif letter in "xX":
-            translation = translation + "c"
+            translation += "c"
         elif letter in "zZ":
-            translation = translation + "a"
-        elif letter in "~`!@#$%^&*()_-+={[}]:;<>,.?/\|ěščřžýáíé":
-            translation = translation + " !Invalid input! "
+            translation += "a"
+        elif letter in "~`!@#%$^&*()_-+={[}]:;<>,.?ěščřžýáíé":
+            translation += " !Invalid input! "
         else:
-            translation = translation + " "
+            translation += " "
     return translation
 
 # disc B
@@ -59,18 +59,24 @@ def translate_2(phrase2):
     translation_2 = ""
     for letter2 in phrase2:
         if letter2 in "a":
-            translation_2 = translation_2 + "1"
+            translation_2 += "1"
         elif letter2 in "b":
-            translation_2 = translation_2 + "2"
+            translation_2 += "2"
         elif letter2 in "c":
-            translation_2 = translation_2 + "3"
+            translation_2 += "3"
         elif letter2 in "d":
-            translation_2 = translation_2 + "4"
-            
-            
+            translation_2 += "4"
+        elif letter2 in "e":
+            translation_2 += "5"
+        elif letter2 in "f":
+            translation_2 += "6"
+        elif letter2 in "g":
+            translation_2 += "7"
+        elif letter2 in "h":
+            translation_2 += "8"
     return translation_2
 
-
+    
 # disc C
 
 
@@ -78,7 +84,7 @@ def translate_3(phrase3):
     translation_3 = ""
     for letter3 in phrase3:
         if letter3 in "a":
-            translation_3 = translation_3 + "532"
+            translation_3 += "532"
     return translation_3
 
 # disc D
@@ -88,7 +94,7 @@ def translate_4(phrase4):
     translation_4 = ""
     for letter4 in phrase4:
         if letter4 in "a":
-            translation_4 = translation_4 + "ghj"
+            translation_4 += "ghj"
     return translation_4
 
 # disc E
@@ -98,51 +104,51 @@ def decode(phrase5):
     decode = ""
     for letter in phrase5:
         if letter in "0":
-            decode = decode + "."
+            decode += "."
         elif letter in "yY":
-            decode = decode + "b"
+            decode += "b"
         elif letter in "xX":
-            decode = decode + "c"
+            decode += "c"
         elif letter in "wW":
-            decode = decode + "d"
+            decode += "d"
         elif letter in "uU":
-            decode = decode + "f"
+            decode += "f"
         elif letter in "tT":
-            decode = decode + "g"
+            decode += "g"
         elif letter in "sS":
-            decode = decode + "h"
+            decode += "h"
         elif letter in "qQ":
-            decode = decode + "j"
+            decode += "j"
         elif letter in "pP":
-            decode = decode + "k"
+            decode += "k"
         elif letter in "oO":
-            decode = decode + "l"
+            decode += "l"
         elif letter in "nN":
-            decode = decode + "m"
+            decode += "m"
         elif letter in "mM":
-            decode = decode + "n"
+            decode += "n"
         elif letter in "lL":
-            decode = decode + "o"
+            decode += "o"
         elif letter in "kK":
-            decode = decode + "p"
+            decode += "p"
         elif letter in "jJ":
-            decode = decode + "q"
+            decode += "q"
         elif letter in "iI":
-            decode = decode + "r"
+            decode += "r"
         elif letter in "hH":
-            decode = decode + "s"
+            decode += "s"
         elif letter in "gG":
-            decode = decode + "t"
+            decode += "t"
         elif letter in "eE":
-            decode = decode + "v"
+            decode += "v"
         elif letter in "dD":
-            decode = decode + "w"
+            decode += "w"
         elif letter in "cC":
-            decode = decode + "x"
+            decode += "x"
         elif letter in "aA":
-            decode = decode + "z"
+            decode += "z"
         else:
-            decode = decode + " "
+            decode += " "
     return decode
 
 # disc F
@@ -152,7 +158,7 @@ def decode_6(phrase6):
     decode_6 = ""
     for letter5 in phrase6:
         if letter5 in "1":
-            decode_6 = decode_6 + "a"
+            decode_6 += "a"
     return decode_6
 
 # disc G
@@ -162,7 +168,7 @@ def decode_7(phrase7):
     decode_7 = ""
     for letter6 in phrase7:
         if letter6 in "532":
-            decode_7 = decode_7 + "a"
+            decode_7 += "a"
     return decode_7
 
 # disc H
@@ -172,7 +178,7 @@ def decode_8(phrase8):
     decode_8 = ""
     for letter7 in phrase8:
         if letter7 in "ghj":
-            decode_8 = decode_8 + "a"
+            decode_8 += "a"
     return decode_8
 
 ###
@@ -207,3 +213,4 @@ else:
         print(decode_7(input("Enter a phrase to decode using encryption disc 7: ")))
     elif option3 == 8:
         print(decode_8(input("Enter a phrase to decode using encryption disc 8: ")))
+        
