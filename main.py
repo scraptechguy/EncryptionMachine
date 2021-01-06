@@ -74,6 +74,12 @@ def translate_2(phrase2):
             translation_2 += "7"
         elif letter2 in "h":
             translation_2 += "8"
+        elif letter2 in "i":
+            translation_2 += "9"
+        elif letter2 in "j":
+            translation_2 += "10"
+        elif letter2 in "k":
+            translation_2 += "11"
     return translation_2
 
     
