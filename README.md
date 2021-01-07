@@ -1,1 +1,1 @@
-# That's original work of mine
+This is the original work of mine
