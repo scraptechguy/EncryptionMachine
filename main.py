@@ -58,28 +58,62 @@ def translate(phrase):
 def translate_2(phrase2):
     translation_2 = ""
     for letter2 in phrase2:
-        if letter2 in "a":
+        if letter2 in "aA":
             translation_2 += "1"
-        elif letter2 in "b":
+        elif letter2 in "bB":
             translation_2 += "2"
-        elif letter2 in "c":
+        elif letter2 in "cC":
             translation_2 += "3"
-        elif letter2 in "d":
+        elif letter2 in "dD":
             translation_2 += "4"
-        elif letter2 in "e":
+        elif letter2 in "eE":
             translation_2 += "5"
-        elif letter2 in "f":
+        elif letter2 in "fF":
             translation_2 += "6"
-        elif letter2 in "g":
+        elif letter2 in "gG":
             translation_2 += "7"
-        elif letter2 in "h":
+        elif letter2 in "hH":
             translation_2 += "8"
-        elif letter2 in "i":
+        elif letter2 in "iI":
             translation_2 += "9"
-        elif letter2 in "j":
+        elif letter2 in "jJ":
             translation_2 += "10"
-        elif letter2 in "k":
+        elif letter2 in "kK":
             translation_2 += "11"
+        elif letter2 in "lL":
+            translation_2 += "12"
+        elif letter2 in "mM":
+            translation_2 += "13"
+        elif letter2 in "nN":
+            translation_2 += "14"
+        elif letter2 in "oO":
+            translation_2 += "15"
+        elif letter2 in "pP":
+            translation_2 += "16"
+        elif letter2 in "qQ":
+            translation_2 += "17"
+        elif letter2 in "rR":
+            translation_2 += "18"
+        elif letter2 in "sS":
+            translation_2 += "19"
+        elif letter2 in "tT":
+            translation_2 += "20"
+        elif letter2 in "uU":
+            translation_2 += "21"
+        elif letter2 in "vV":
+            translation_2 += "22"
+        elif letter2 in "wW":
+            translation_2 += "23"
+        elif letter2 in "xX":
+            translation_2 += "24"
+        elif letter2 in "yY":
+            translation_2 += "25"
+        elif letter2 in "zZ":
+            translation_2 += "26"
+        elif letter2 in "~`!@#%$^&*()_-+={[}]:;<>,.?ěščřžýáíé":
+            translation_2 += " !Invalid input! "
+        else:
+            translation_2 += " "
     return translation_2
 
     
