@@ -199,6 +199,56 @@ def decode_6(phrase6):
     for letter5 in phrase6:
         if letter5 in "1":
             decode_6 += "a"
+        elif letter5 in "2":
+            decode_6 += "b"
+        elif letter5 in "3":
+            decode_6 += "c"
+        elif letter5 in "4":
+            decode_6 += "d"
+        elif letter5 in "5":
+            decode_6 += "e"
+        elif letter5 in "6":
+            decode_6 += "f"
+        elif letter5 in "7":
+            decode_6 += "g"
+        elif letter5 in "8":
+            decode_6 += "h"
+        elif letter5 in "9":
+            decode_6 += "i"
+        elif letter5 in "10":
+            decode_6 += "j"
+        elif letter5 in "11":
+            decode_6 += "k"
+        elif letter5 in "12":
+            decode_6 += "l"
+        elif letter5 in "13":
+            decode_6 += "m"
+        elif letter5 in "14":
+            decode_6 += "n"
+        elif letter5 in "15":
+            decode_6 += "o"
+        elif letter5 in "16":
+            decode_6 += "p"
+        elif letter5 in "17":
+            decode_6 += "q"
+        elif letter5 in "18":
+            decode_6 += "r"
+        elif letter5 in "19":
+            decode_6 += "s"
+        elif letter5 in "20":
+            decode_6 += "t"
+        elif letter5 in "21":
+            decode_6 += "u"
+        elif letter5 in "22":
+            decode_6 += "v"
+        elif letter5 in "23":
+            decode_6 += "w"
+        elif letter5 in "24":
+            decode_6 += "x"
+        elif letter5 in "25":
+            decode_6 += "y"
+        elif letter5 in "26":
+            decode_6 += "z"
     return decode_6
 
 # disc G
@@ -221,36 +271,40 @@ def decode_8(phrase8):
             decode_8 += "a"
     return decode_8
 
+
 ###
 
 # getting input and executing program
 # choosing if user want to encode or decode
 
-print("Enter an option (encode/decode): ")
-option1 = input("")
 
-# choosing encoding disk
-if option1 == "encode":
-    print("Enter an option (1/2/3/4): ")
-    option2 = int(input(""))
-    if option2 == 1:
-        print(translate(input("Enter a phrase to encode using encryption disc 1: ")))
-    elif option2 == 2:
-        print(translate_2(input("Enter a phrase to encode using encryption disc 2: ")))
-    elif option2 == 3:
-        print(translate_3(input("Enter a phrase to encode using encryption disc 3: ")))
-    elif option2 == 4:
-        print(translate_4(input("Enter a phrase to encode using encryption disc 4: ")))
-# choosing decoding disk
-else:
-    print("Enter an option (5/6/7/8): ")
-    option3 = int(input(""))
-    if option3 == 5:
-        print(decode(input("Enter a phrase to decode using encryption disc 5: ")))
-    elif option3 == 6:
-        print(decode_6(input("Enter a phrase to decode using encryption disc 6: ")))
-    elif option3 == 7:
-        print(decode_7(input("Enter a phrase to decode using encryption disc 7: ")))
-    elif option3 == 8:
-        print(decode_8(input("Enter a phrase to decode using encryption disc 8: ")))
-        
+def enc_machine():
+    print("Enter an option (encode/decode): ")
+    option1 = input("")
+
+    # choosing encoding disk
+    if option1 == "encode":
+        print("Enter an option (1/2/3/4): ")
+        option2 = int(input(""))
+        if option2 == 1:
+            print(translate(input("Enter a phrase to encode using encryption disc 1: ")))
+        elif option2 == 2:
+            print(translate_2(input("Enter a phrase to encode using encryption disc 2: ")))
+        elif option2 == 3:
+            print(translate_3(input("Enter a phrase to encode using encryption disc 3: ")))
+        elif option2 == 4:
+            print(translate_4(input("Enter a phrase to encode using encryption disc 4: ")))
+    # choosing decoding disk
+    else:
+        print("Enter an option (5/6/7/8): ")
+        option3 = int(input(""))
+        if option3 == 5:
+            print(decode(input("Enter a phrase to decode using encryption disc 5: ")))
+        elif option3 == 6:
+            print(decode_6(input("Enter a phrase to decode using encryption disc 6: ")))
+        elif option3 == 7:
+            print(decode_7(input("Enter a phrase to decode using encryption disc 7: ")))
+        elif option3 == 8:
+            print(decode_8(input("Enter a phrase to decode using encryption disc 8: ")))
+
+enc_machine()            
