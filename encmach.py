@@ -279,7 +279,7 @@ def decode_8(phrase8):
 
 
 def enc_machine():
-    print("Enter an option (encode/decode): ")
+    print("Enter an option (encode/decode/cancel): ")
     option1 = input("")
 
     # choosing encoding disk
@@ -307,4 +307,8 @@ def enc_machine():
         elif option3 == 8:
             print(decode_8(input("Enter a phrase to decode using encryption disc 8: ")))
 
-enc_machine()            
+while True:
+    
+    enc_machine()  
+    if 
+
