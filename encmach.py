@@ -296,7 +296,7 @@ def enc_machine():
             print(translate_4(input("Enter a phrase to encode using encryption disc 4: ")))
             
     # choosing decoding disk
-    else:
+    elif option1 == "decode":
         print("Enter an option (5/6/7/8): ")
         option3 = int(input(""))
         if option3 == 5:
@@ -307,6 +307,9 @@ def enc_machine():
             print(decode_7(input("Enter a phrase to decode using encryption disc 7: ")))
         elif option3 == 8:
             print(decode_8(input("Enter a phrase to decode using encryption disc 8: ")))
+            
+    else:
+        enc_machine()
 
             
 while True:
