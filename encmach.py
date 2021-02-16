@@ -313,6 +313,18 @@ def enc_machine():
             
     else:
         enc_machine()
+        
+while True:
+    
+    enc_machine()
+    
+    cancel = str(input("Wanna go again? (yes/no): "))
+
+    if cancel == "no":
+        break
+
+    else:
+        enc_machine()  
 
     
 
