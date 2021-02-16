@@ -279,8 +279,7 @@ def decode_8(phrase8):
 
 
 def enc_machine():
-    print("Enter an option (encode/decode/cancel): ")
-    option1 = input("")
+    option1 = input("Enter an option (encode/decode): ")
 
     # choosing encoding disk
     if option1 == "encode":
@@ -315,10 +314,8 @@ def enc_machine():
     else:
         enc_machine()
 
-            
-while True:
     
-    enc_machine()  
-    if option1 == "cancel":
-        break
+
+            
+
 
