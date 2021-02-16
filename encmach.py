@@ -310,5 +310,6 @@ def enc_machine():
 while True:
     
     enc_machine()  
-    if 
+    if option1 == "cancel":
+        break
 
