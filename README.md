@@ -1,2 +1,2 @@
-Yep, this is original work of mine. Feel free to use it though!
-Working on concept solving encryption with dictionaries. 
+
+Working on concept solving encryption with dictionaries and visual version! 
